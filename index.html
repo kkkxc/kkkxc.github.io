@@ -125,7 +125,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/04/23/hello-world/">Hello World</a>
+      <a class="p-name article-title" href="/2022/04/23/hello-world/">Markdown 入门</a>
     </h1>
   
 
@@ -134,23 +134,50 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//代码块语法：</span><br><span class="line">输入``` c/java/c++/生成对应语言代码块</span><br><span class="line">再次输入结束代码块</span><br></pre></td></tr></table></figure>
+<p>如：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line">using namespace <span class="built_in">std</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">&quot;Hello World!&quot;</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#一级标题</span><br><span class="line">##二级标题</span><br><span class="line">###三级标题</span><br><span class="line">####四级标题</span><br><span class="line">#####五级标题</span><br><span class="line">######六级标题</span><br></pre></td></tr></table></figure>
+<p>实际效果：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>##字体</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">加粗：</span><br><span class="line">**要加粗的字体**</span><br><span class="line">代码高亮显示：</span><br><span class="line">==kkkxc==</span><br><span class="line">删除线：</span><br><span class="line">~~这是一个测试~~</span><br><span class="line">斜体：</span><br><span class="line">*斜体内容*</span><br></pre></td></tr></table></figure>
+<p>如：<br><strong>要加粗的字体</strong><br>&#x3D;&#x3D;kkkxc&#x3D;&#x3D;<br><del>这是一个测试</del><br><em>斜体内容</em></p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">引用语法：</span><br><span class="line">&gt;作者：kkkxc</span><br><span class="line">&gt;&gt;作者：kkkxc</span><br><span class="line">&gt;&gt;&gt;作者：kkkxc</span><br></pre></td></tr></table></figure>
+<p>如：</p>
+<blockquote>
+<p>作者：kkkxc</p>
+<blockquote>
+<p>作者：kkkxc</p>
+<blockquote>
+<p>作者：kkkxc</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">分割线</span><br><span class="line">---</span><br><span class="line">分割线2</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+<hr>
+<hr>
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="图片的插入"><a href="#图片的插入" class="headerlink" title="图片的插入"></a>图片的插入</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在线图片/本地图片</span><br><span class="line">![我的照片](/image/me.png) --图片路径</span><br></pre></td></tr></table></figure>
+<p><img src="C:/Users/86183/Desktop/1.jpg" alt="我的照片"></p>
+<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">超链接语法</span><br><span class="line">[我的github](网站地址)</span><br></pre></td></tr></table></figure>
+<p>如：<br><a target="_blank" rel="noopener" href="https://github.com/kkkxc/kkkxc.github.io">我的github</a></p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">无序列表：横杠+空格+名称</span><br><span class="line">- 目录1</span><br><span class="line">- 目录2</span><br><span class="line">- 目录3</span><br><span class="line">有序列表：数字键+.+空格+名称</span><br></pre></td></tr></table></figure>
+<ul>
+<li>无序列表</li>
+<li>目录12138</li>
+</ul>
+<ol>
+<li>首页</li>
+<li>分类</li>
+<li>标签<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">First Header|Second Header</span><br><span class="line">------------|-------------  </span><br><span class="line">Content Cell|Content Cell  </span><br></pre></td></tr></table></figure>
+<del>这样敲比较麻烦，回来找找有没有什么更好的办法</del><br>First Header|Second Header</li>
+</ol>
+<p>————|————-<br>Content Cell|Content Cell  </p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/04/23/hello-world/" data-id="cl2ang1bc0000xguodi526ztu" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/04/23/hello-world/" data-id="cl2ang1bc0000xguodi526ztu" data-title="Markdown 入门" class="article-share-link">Share</a>
       
       
       
@@ -197,7 +224,7 @@
           </li>
         
           <li>
-            <a href="/2022/04/23/hello-world/">Hello World</a>
+            <a href="/2022/04/23/hello-world/">Markdown 入门</a>
           </li>
         
       </ul>
