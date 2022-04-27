@@ -158,7 +158,7 @@
 <hr>
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
 <h2 id="图片的插入"><a href="#图片的插入" class="headerlink" title="图片的插入"></a>图片的插入</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在线图片/本地图片</span><br><span class="line">![我的照片](/image/me.png) --图片路径</span><br></pre></td></tr></table></figure>
-<p><img src="C:/Users/86183/Desktop/1.jpg" alt="我的照片"></p>
+<p><img src="/C:/Users/86183/Desktop/1.jpg" alt="我的照片"></p>
 <h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">超链接语法</span><br><span class="line">[我的github](网站地址)</span><br></pre></td></tr></table></figure>
 <p>如：<br><a target="_blank" rel="noopener" href="https://github.com/kkkxc/kkkxc.github.io">我的github</a></p>
 <h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">无序列表：横杠+空格+名称</span><br><span class="line">- 目录1</span><br><span class="line">- 目录2</span><br><span class="line">- 目录3</span><br><span class="line">有序列表：数字键+.+空格+名称</span><br></pre></td></tr></table></figure>
@@ -170,9 +170,20 @@
 <li>首页</li>
 <li>分类</li>
 <li>标签<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">First Header|Second Header</span><br><span class="line">------------|-------------  </span><br><span class="line">Content Cell|Content Cell  </span><br></pre></td></tr></table></figure>
-<del>这样敲比较麻烦，回来找找有没有什么更好的办法</del><br>First Header|Second Header</li>
+<del>这样敲比较麻烦，回来找找有没有什么更好的办法</del></li>
 </ol>
-<p>————|————-<br>Content Cell|Content Cell  </p>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody></table>
 
       
     </div>
